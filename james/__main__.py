@@ -18,7 +18,7 @@ def load_data():
     global config
     with open('config.json', 'r') as fd:
         config = json.load(fd)
-    
+
     # Load Guild Dict
     global guild_dict
     try:
@@ -28,13 +28,16 @@ def load_data():
         with open(os.path.join('data', 'guild_dict'), 'wb') as fd:
             guild_dict = {}
             pickle.dump(guild_dict, fd, (- 1))
-            
+
     # Load Gyms
     global gyms
     gyms = {}
     for city in CITY:
         gyms[city] = {}
-        with open(os.path.join('data/gyms', f'{city}.json'), 'r') as fd:
+        file_path = os.path.join('data/gyms', f'{city}.json')
+        if not os.path.isfile(file_path):
+            continue
+        with open(file_path, 'r') as fd:
             gyms_data = json.load(fd)["Document"]["Folder"]
         for gym_folder in gyms_data:
             if( gym_folder['name'] == "Gyms" or gym_folder['name'] == "Confirmed EX Gyms" ):
@@ -43,9 +46,24 @@ def load_data():
                     gym_coord = gym["Point"]["coordinates"].strip().split(',')[:2]
                     gym_coord.reverse()
                     gym_ex_confirmed = True if gym_folder["name"] == "Confirmed EX Gyms" else False
-                    
+
                     gyms[city][gym_name.lower()] = {"Name": gym_name, "Coordinates": gym_coord, "Ex Confirmed": gym_ex_confirmed}
-            
+
+    # Load Pokestops
+    global pokestops
+    pokestops = {}
+    for city in CITY:
+        pokestops[city] = {}
+        file_path = os.path.join('data/pokestops', f'{city}.json')
+        if not os.path.isfile(file_path):
+            continue
+        with open(file_path, 'r') as fd:
+            pokestops_data = json.load(fd)
+        for pokestop in pokestops_data:
+            pokestop_name = pokestop["In-game name | שם התחנה במשחק"]
+            pokestop_coord = [str(pokestop["Latitude | קו רוחב"]), str(pokestop["Longtitue | קו אורך"])]
+            pokestops[city][pokestop_name.lower()] = {"Name": pokestop_name, "Coordinates": pokestop_coord}
+
 load_data()
 James = commands.Bot(command_prefix=config['default_prefix'], owner_id=config['master'], case_insensitive=True)
 James.remove_command('help')
@@ -55,7 +73,7 @@ async def save():
         pickle.dump(guild_dict, fd, (- 1))
     os.remove(os.path.join('data', 'guild_dict'))
     os.rename(os.path.join('data', 'guild_dict_tmp'), os.path.join('data', 'guild_dict'))
-  
+
 """
 Events
 """
@@ -70,7 +88,7 @@ async def on_ready():
                 pass
             await asyncio.sleep(600)
             continue
-    
+
     try:
         event_loop.create_task(auto_save())
     except KeyboardInterrupt as e:
@@ -93,19 +111,19 @@ async def on_guild_remove(guild):
                 pass
     except KeyError:
         pass
-        
+
 @James.event
 async def on_guild_channel_create(channel):
     if channel.guild != None:
         name = channel.name
         if name.startswith("ex") or (name[0].isdigit() and int(name[0]) >= 1 and int(name[0]) <= 5) or name.startswith("level"):
             await asyncio.sleep(7)
-            
+
             first_message = (await channel.history(reverse=True).flatten())[0]
             details_start_index = first_message.content.index("Details: ") + len("Details: ")
             details_end_index = first_message.content.index(".", details_start_index)
             raid_location_details = first_message.content[details_start_index:details_end_index]
-            
+
             gym = await find_gym(raid_location_details, first_message.mentions[0], channel)
             if gym:
                 maps_link = 'https://www.google.com/maps/search/?api=1&query={}'.format('+'.join(gym['Coordinates']))
@@ -117,18 +135,18 @@ async def on_guild_channel_create(channel):
                     else:
                         role = "ex"
                     await channel.send('{} Raid Gym in {}'.format(role, raid_location_details))
-            
+
 
 """
 Helper functions
-"""  
+"""
 
 async def find_gym(entered_gym, author, channel):
     guild = channel.guild
     if( guild_dict[guild.id].get("region", None) is None ):
         await channel.send("Use **!region [region]**")
         return
-        
+
     entered_gym = entered_gym.lower()
     gym = gyms[guild_dict[guild.id]["region"]].get(entered_gym, None)
     if not gym:
@@ -139,6 +157,23 @@ async def find_gym(entered_gym, author, channel):
     if not gym:
         pass#await channel.send("Use **!gym [gym_name]** to send the gym location.")
     return gym
+
+async def find_pokestop(entered_pokestop, author, channel):
+    guild = channel.guild
+    if( guild_dict[guild.id].get("region", None) is None ):
+        await channel.send("Use **!region [region]**")
+        return
+
+    entered_pokestop = entered_pokestop.lower()
+    pokestop = pokestops[guild_dict[guild.id]["region"]].get(entered_pokestop, None)
+    if not gym:
+        pokestop_autocorrect = autocorrect(entered_pokestop, pokestops[guild_dict[guild.id]["region"]].keys(), author, channel)
+        if pokestop_autocorrect:
+            if await ask('The Pokestop name is {} ?'.format(pokestop_autocorrect.title()), author, channel):
+                pokestop = pokestops[guild_dict[guild.id]["region"]][pokestop_autocorrect]
+    if not pokestop:
+        return
+    return pokestop
 
 def autocorrect(word, word_list, user, channel):
     close_matches = difflib.get_close_matches(word, word_list, n=1, cutoff=0.6)
@@ -164,17 +199,17 @@ async def ask(message, user, channel):
 
 def distanceBetweenCord(lat1, lon1, lat2, lon2):
     """
-    Calculate the great circle distance between two points 
+    Calculate the great circle distance between two points
     on the earth (specified in decimal degrees).
     Source: https://gis.stackexchange.com/a/56589/15183
     """
-    # convert decimal degrees to radians 
+    # convert decimal degrees to radians
     lon1, lat1, lon2, lat2 = map(math.radians, [lon1, lat1, lon2, lat2])
-    # haversine formula 
-    dlon = lon2 - lon1 
-    dlat = lat2 - lat1 
+    # haversine formula
+    dlon = lon2 - lon1
+    dlat = lat2 - lat1
     a = math.sin(dlat/2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon/2)**2
-    c = 2 * math.asin(math.sqrt(a)) 
+    c = 2 * math.asin(math.sqrt(a))
     km = 6367 * c
     return km
 
@@ -188,7 +223,7 @@ async def gym(ctx):
     channel = message.channel
     author = message.author
     guild = channel.guild
-    
+
     args = message.clean_content.split()[1:]
     if len(args) == 0:
         await channel.send('Give me the gym name!')
@@ -206,13 +241,13 @@ async def gym(ctx):
                 role = "ex"
             await channel.send('{} Raid Gym in {}'.format(role, entered_gym))
 
-@James.command(hidden=True)
+@James.command(hidden=True, aliases=['gymd'])
 async def dgym(ctx):
     message = ctx.message
     channel = message.channel
     author = message.author
     guild = channel.guild
-    
+
     args = message.clean_content.split()[1:]
     if len(args) == 0:
         await channel.send('Give me the gym name!')
@@ -220,15 +255,47 @@ async def dgym(ctx):
     entered_gym = ' '.join(args)
     gym = await find_gym(entered_gym, author, channel)
     if gym:
-        maps_link = 'https://www.google.com/maps/search/?api=1&query={}'.format('+'.join(gym['Coordinates']))
         await channel.send(f'{gym}')
-            
+
+@James.command(aliases=['ps'])
+async def pokestop(ctx):
+    message = ctx.message
+    channel = message.channel
+    author = message.author
+    guild = channel.guild
+
+    args = message.clean_content.split()[1:]
+    if len(args) == 0:
+        await channel.send('Give me the pokestop name!')
+        return
+    entered_pokestop = ' '.join(args)
+    pokestop = await find_pokestop(entered_pokestop, author, channel)
+    if pokestop:
+        maps_link = 'https://www.google.com/maps/search/?api=1&query={}'.format('+'.join(pokestop['Coordinates']))
+        await channel.send(f'{maps_link}')
+
+@James.command(hidden=True, aliases=['pokestopd'])
+async def dpokestop(ctx):
+    message = ctx.message
+    channel = message.channel
+    author = message.author
+    guild = channel.guild
+
+    args = message.clean_content.split()[1:]
+    if len(args) == 0:
+        await channel.send('Give me the pokestop name!')
+        return
+    entered_pokestop = ' '.join(args)
+    pokestop = await find_pokestop(entered_pokestop, author, channel)
+    if pokestop:
+        await channel.send(f'{pokestop}')
+
 @James.command(hidden=True)
 async def region(ctx):
     message = ctx.message
     channel = message.channel
     guild = channel.guild
-    
+
     args = message.clean_content.split()[1:]
     if len(args) == 0:
         await channel.send('Give me a region!')
@@ -239,49 +306,49 @@ async def region(ctx):
         await message.add_reaction('✅')
     else:
         await message.add_reaction('❎')
-    
+
 @James.command()
 async def events(ctx):
     message = ctx.message
     channel = message.channel
     guild = channel.guild
-    
+
     events_url = "https://pokemon.gameinfo.io/en/js/list-events.js?v4.34.2"
     request = Request(events_url, headers={'User-Agent': 'Mozilla/5.0'})
     response = urlopen(request)
-    html = response.read().decode("utf-8") 
-    
+    html = response.read().decode("utf-8")
+
     start = html.index("_event_data=") + len("_event_data=")
     end = html.index("if(!hasStorage)")
     html_array = html[start:end-1]
     events = json.loads(html_array)
 
-    event_upcoming = [] 
+    event_upcoming = []
     for event in events:
         if event.get('start', None):
             start_date = datetime.fromtimestamp(event['start'])
             if start_date >= datetime.now():
                 event_upcoming.append( (event['name'], start_date) )
             continue
-        
+
         if event.get('day', None) and event['day'] is not None:
             start_date = datetime.strptime(event['day'][0], "%Y-%m-%d")
             if start_date >= datetime.now():
                 event_upcoming.append( (event['name'], start_date) )
             continue
-        
+
     event_upcoming.sort(key=lambda x: x[1])
     text = ""
     for event in event_upcoming:
         text += "{} - {}\n".format(event[0], event[1].strftime('%d/%m/%Y'))
-    
+
     embed = discord.Embed(title="Events", description=text, colour=guild.me.colour)
     await channel.send(embed=embed)
-    
-    
+
+
 """
 Admin Commands
-"""    
+"""
 
 @commands.is_owner()
 @James.command(hidden=True)
@@ -297,7 +364,7 @@ async def restart(ctx):
     Usage: !restart.
     Calls the save function and restarts James."""
     await save()
-    
+
     await ctx.channel.send('Restarting...')
     James._shutdown_mode = 26
     await James.logout()
@@ -310,12 +377,12 @@ async def exit(ctx):
     Usage: !exit.
     Calls the save function and quits the script."""
     await save()
-    
+
     await ctx.channel.send('Shutting down...')
     James._shutdown_mode = 0
     await James.logout()
-    
-    
+
+
 try:
     event_loop.run_until_complete(James.start(config['bot_token']))
 except discord.LoginFailure:
@@ -331,4 +398,4 @@ except Exception as e:
     event_loop.run_until_complete(James.logout())
 finally:
     pass
-sys.exit(James._shutdown_mode) 
+sys.exit(James._shutdown_mode)

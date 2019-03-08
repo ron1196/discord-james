@@ -1,0 +1,802 @@
+[
+  {
+    "ID": 1,
+    "In-game name | שם התחנה במשחק": "גן האצל, הגבעה הצרפתית",
+    "Nickname | כינוי": "גן אצל",
+    "Latitude | קו רוחב": 31.80376,
+    "Longtitue | קו אורך": 35.235191,
+    "Neighborhood | שכונה/אזור": "גבעה צרפתית",
+    "Contributer | הוזן ע\"י": "NoamWhiteCat",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 2,
+    "In-game name | שם התחנה במשחק": "גן אלי",
+    "Latitude | קו רוחב": 31.803318,
+    "Longtitue | קו אורך": 35.237746,
+    "Neighborhood | שכונה/אזור": "גבעה צרפתית",
+    "Contributer | הוזן ע\"י": "NoamWhiteCat",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 3,
+    "In-game name | שם התחנה במשחק": "ילדים למען ילדים",
+    "Latitude | קו רוחב": 31.803606,
+    "Longtitue | קו אורך": 35.241043,
+    "Neighborhood | שכונה/אזור": "גבעה צרפתית",
+    "Contributer | הוזן ע\"י": "NoamWhiteCat",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 4,
+    "In-game name | שם התחנה במשחק": "גן השלושה",
+    "Latitude | קו רוחב": 31.803832,
+    "Longtitue | קו אורך": 35.239782,
+    "Neighborhood | שכונה/אזור": "גבעה צרפתית",
+    "Contributer | הוזן ע\"י": "NoamWhiteCat",
+    "Photo | תמונה": false
+  },
+  {
+    "ID": 5,
+    "In-game name | שם התחנה במשחק": "הסלון השכונתי, הגבעה הצרפתית",
+    "Nickname | כינוי": "הסלון",
+    "Latitude | קו רוחב": 31.802648,
+    "Longtitue | קו אורך": 35.238412,
+    "Neighborhood | שכונה/אזור": "גבעה צרפתית",
+    "Contributer | הוזן ע\"י": "NoamWhiteCat",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 6,
+    "In-game name | שם התחנה במשחק": "גן השבלול, הגבעה הצרפתית",
+    "Nickname | כינוי": "גן השבלול",
+    "Latitude | קו רוחב": 31.801676,
+    "Longtitue | קו אורך": 35.235763,
+    "Neighborhood | שכונה/אזור": "גבעה צרפתית",
+    "Contributer | הוזן ע\"י": "NoamWhiteCat",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 7,
+    "In-game name | שם התחנה במשחק": "לזכר שלום",
+    "Latitude | קו רוחב": 31.800391,
+    "Longtitue | קו אורך": 35.233379,
+    "Neighborhood | שכונה/אזור": "גבעה צרפתית",
+    "Contributer | הוזן ע\"י": "NoamWhiteCat",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 8,
+    "In-game name | שם התחנה במשחק": "לזכר שושנה ומנשה",
+    "Latitude | קו רוחב": 31.80677,
+    "Longtitue | קו אורך": 35.234804,
+    "Neighborhood | שכונה/אזור": "גבעה צרפתית",
+    "Contributer | הוזן ע\"י": "NoamWhiteCat",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 9,
+    "In-game name | שם התחנה במשחק": "Amos Memorial",
+    "Nickname | כינוי": "אנדרטת עמוס",
+    "Latitude | קו רוחב": 31.778388,
+    "Longtitue | קו אורך": 35.196259,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 10,
+    "In-game name | שם התחנה במשחק": "בניין שרמן",
+    "Latitude | קו רוחב": 31.77894,
+    "Longtitue | קו אורך": 35.196356,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 11,
+    "In-game name | שם התחנה במשחק": "Birds of Freedom",
+    "Nickname | כינוי": "ציפורי חופש",
+    "Latitude | קו רוחב": 31.778201,
+    "Longtitue | קו אורך": 35.197232,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 12,
+    "In-game name | שם התחנה במשחק": "The Rotberg Gardens",
+    "Nickname | כינוי": "גני רוטברג",
+    "Latitude | קו רוחב": 31.778257,
+    "Longtitue | קו אורך": 35.196647,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 13,
+    "In-game name | שם התחנה במשחק": "War Victims Memorial",
+    "Nickname | כינוי": "אנדרטת קורבנות המלחמה",
+    "Latitude | קו רוחב": 31.778393,
+    "Longtitue | קו אורך": 35.197583,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 14,
+    "In-game name | שם התחנה במשחק": "Charkawsky Square",
+    "Nickname | כינוי": "כיכר צ'רקובסקי",
+    "Latitude | קו רוחב": 31.778827,
+    "Longtitue | קו אורך": 35.197889,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 15,
+    "In-game name | שם התחנה במשחק": "Rosenwald Park",
+    "Nickname | כינוי": "פארק רוזנוולד",
+    "Latitude | קו רוחב": 31.780633,
+    "Longtitue | קו אורך": 35.198511,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 16,
+    "In-game name | שם התחנה במשחק": "Joint Israel",
+    "Nickname | כינוי": "הג'וינט",
+    "Latitude | קו רוחב": 31.780337,
+    "Longtitue | קו אורך": 35.19856,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 17,
+    "In-game name | שם התחנה במשחק": "HUJI",
+    "Latitude | קו רוחב": 31.780025,
+    "Longtitue | קו אורך": 35.199087,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 18,
+    "In-game name | שם התחנה במשחק": "Shapes",
+    "Nickname | כינוי": "צורות",
+    "Latitude | קו רוחב": 31.78026,
+    "Longtitue | קו אורך": 35.199365,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 19,
+    "In-game name | שם התחנה במשחק": "Horse Statue",
+    "Nickname | כינוי": "פסל סוס",
+    "Latitude | קו רוחב": 31.780762,
+    "Longtitue | קו אורך": 35.199984,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 20,
+    "In-game name | שם התחנה במשחק": "Einstein Holding a Tube",
+    "Nickname | כינוי": "מוזיאון המדע למטה",
+    "Latitude | קו רוחב": 31.778935,
+    "Longtitue | קו אורך": 35.199014,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 21,
+    "In-game name | שם התחנה במשחק": "Youth Village For Science",
+    "Nickname | כינוי": "נוער שוחר מדע",
+    "Latitude | קו רוחב": 31.778379,
+    "Longtitue | קו אורך": 35.198564,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 22,
+    "In-game name | שם התחנה במשחק": "ציפורים חולפות",
+    "Latitude | קו רוחב": 31.77766,
+    "Longtitue | קו אורך": 35.196943,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 23,
+    "In-game name | שם התחנה במשחק": "Birds Tree",
+    "Nickname | כינוי": "עץ ציפורים",
+    "Latitude | קו רוחב": 31.777264,
+    "Longtitue | קו אורך": 35.196754,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 24,
+    "In-game name | שם התחנה במשחק": "מסנן טבעות",
+    "Latitude | קו רוחב": 31.778646,
+    "Longtitue | קו אורך": 35.200353,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 25,
+    "In-game name | שם התחנה במשחק": "גן הוורדים",
+    "Latitude | קו רוחב": 31.778781,
+    "Longtitue | קו אורך": 35.202746,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 26,
+    "In-game name | שם התחנה במשחק": "Sciene Museum of Jerusalem",
+    "Nickname | כינוי": "מוזיאון המדע למעלה",
+    "Latitude | קו רוחב": 31.778168,
+    "Longtitue | קו אורך": 35.200579,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 27,
+    "In-game name | שם התחנה במשחק": "Monument at Rothschild and Kap",
+    "Latitude | קו רוחב": 31.777933,
+    "Longtitue | קו אורך": 35.203339,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 28,
+    "In-game name | שם התחנה במשחק": "Gift of Arthur",
+    "Nickname | כינוי": "מתנת ארתור",
+    "Latitude | קו רוחב": 31.777597,
+    "Longtitue | קו אורך": 35.201549,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 29,
+    "In-game name | שם התחנה במשחק": "מוזיאון המדע",
+    "Latitude | קו רוחב": 31.777762,
+    "Longtitue | קו אורך": 35.200516,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 30,
+    "In-game name | שם התחנה במשחק": "מנורה",
+    "Latitude | קו רוחב": 31.777462,
+    "Longtitue | קו אורך": 35.199414,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 31,
+    "In-game name | שם התחנה במשחק": "Giant Snake Statue",
+    "Nickname | כינוי": "פסל נחש ענק",
+    "Latitude | קו רוחב": 31.776966,
+    "Longtitue | קו אורך": 35.202236,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 32,
+    "In-game name | שם התחנה במשחק": "Shield",
+    "Nickname | כינוי": "מגן",
+    "Latitude | קו רוחב": 31.776514,
+    "Longtitue | קו אורך": 35.202422,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 33,
+    "In-game name | שם התחנה במשחק": "Kossel Stadium",
+    "Nickname | כינוי": "האצטדיון",
+    "Latitude | קו רוחב": 31.776552,
+    "Longtitue | קו אורך": 35.199394,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 34,
+    "In-game name | שם התחנה במשחק": "Moshe Salz Garden",
+    "Nickname | כינוי": "גן משה זלץ",
+    "Latitude | קו רוחב": 31.774832,
+    "Longtitue | קו אורך": 35.203704,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 35,
+    "In-game name | שם התחנה במשחק": "Ancient Column",
+    "Nickname | כינוי": "עמוד עתיק",
+    "Latitude | קו רוחב": 31.775437,
+    "Longtitue | קו אורך": 35.202403,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 36,
+    "In-game name | שם התחנה במשחק": "Aquarium. Huji CS Lab",
+    "Nickname | כינוי": "האקווריום הישן",
+    "Latitude | קו רוחב": 31.776626,
+    "Longtitue | קו אורך": 35.196222,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 37,
+    "In-game name | שם התחנה במשחק": "National Library of Israel",
+    "Nickname | כינוי": "הספריה הלאומית",
+    "Latitude | קו רוחב": 31.776129,
+    "Longtitue | קו אורך": 35.196524,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 38,
+    "In-game name | שם התחנה במשחק": "Bat Sheva Square Memorial",
+    "Nickname | כינוי": "אנדרטת כיכר בת שבע",
+    "Latitude | קו רוחב": 31.77332,
+    "Longtitue | קו אורך": 35.200285,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 39,
+    "In-game name | שם התחנה במשחק": "Lab Building",
+    "Nickname | כינוי": "בניין מעבדות",
+    "Latitude | קו רוחב": 31.774991,
+    "Longtitue | קו אורך": 35.198343,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 40,
+    "In-game name | שם התחנה במשחק": "Mona Bronfman Sheckman Amphitheater",
+    "Nickname | כינוי": "אמפיתיאטרון מונה ברונפמן שכמן",
+    "Latitude | קו רוחב": 31.774134,
+    "Longtitue | קו אורך": 35.19874,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 41,
+    "In-game name | שם התחנה במשחק": "In Memory of Einstein",
+    "Nickname | כינוי": "לזכר איינשטיין",
+    "Latitude | קו רוחב": 31.774854,
+    "Longtitue | קו אורך": 35.197859,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 42,
+    "In-game name | שם התחנה במשחק": "Avraham Ofek",
+    "Nickname | כינוי": "אברהם אופק",
+    "Latitude | קו רוחב": 31.774271,
+    "Longtitue | קו אורך": 35.198104,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 43,
+    "In-game name | שם התחנה במשחק": "Gleixh Nature Walk",
+    "Nickname | כינוי": "טיילת גלייך",
+    "Latitude | קו רוחב": 31.774258,
+    "Longtitue | קו אורך": 35.197513,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 44,
+    "In-game name | שם התחנה במשחק": "Double Helix",
+    "Nickname | כינוי": "סליל כפול",
+    "Latitude | קו רוחב": 31.771919,
+    "Longtitue | קו אורך": 35.197809,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 45,
+    "In-game name | שם התחנה במשחק": "בלגיה, בית-",
+    "Nickname | כינוי": "בית-בלגיה",
+    "Latitude | קו רוחב": 31.774722,
+    "Longtitue | קו אורך": 35.1964,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 46,
+    "In-game name | שם התחנה במשחק": "The Belgium House",
+    "Nickname | כינוי": "בית בלגיה",
+    "Latitude | קו רוחב": 31.774802,
+    "Longtitue | קו אורך": 35.196043,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 47,
+    "In-game name | שם התחנה במשחק": "בית הספר אורט",
+    "Nickname | כינוי": "אורט גבעת רם",
+    "Latitude | קו רוחב": 31.776171,
+    "Longtitue | קו אורך": 35.195394,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 48,
+    "In-game name | שם התחנה במשחק": "Academy of Music and Dance",
+    "Nickname | כינוי": "האקדמיה",
+    "Latitude | קו רוחב": 31.777158,
+    "Longtitue | קו אורך": 35.195114,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 49,
+    "In-game name | שם התחנה במשחק": "סמל האקדמיה",
+    "Latitude | קו רוחב": 31.778418,
+    "Longtitue | קו אורך": 35.195364,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 50,
+    "In-game name | שם התחנה במשחק": "ראשים",
+    "Latitude | קו רוחב": 31.773712,
+    "Longtitue | קו אורך": 35.19235,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 51,
+    "In-game name | שם התחנה במשחק": "Trudy Briger",
+    "Nickname | כינוי": "השבשבת הקטנה",
+    "Latitude | קו רוחב": 31.773319,
+    "Longtitue | קו אורך": 35.190396,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 52,
+    "In-game name | שם התחנה במשחק": "בית היופי - ר'בנימין",
+    "Nickname | כינוי": "בית היופי",
+    "Latitude | קו רוחב": 31.781659,
+    "Longtitue | קו אורך": 35.193878,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 53,
+    "In-game name | שם התחנה במשחק": "Nechamia Garden",
+    "Nickname | כינוי": "גן השחר",
+    "Latitude | קו רוחב": 31.7803,
+    "Longtitue | קו אורך": 35.194329,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 54,
+    "In-game name | שם התחנה במשחק": "Stargate",
+    "Nickname | כינוי": "סטארגייט",
+    "Latitude | קו רוחב": 31.779639,
+    "Longtitue | קו אורך": 35.194437,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 55,
+    "In-game name | שם התחנה במשחק": "Mosaic Art",
+    "Nickname | כינוי": "אומנות פסיפס",
+    "Latitude | קו רוחב": 31.77894,
+    "Longtitue | קו אורך": 35.193861,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 56,
+    "In-game name | שם התחנה במשחק": "Marble Poll",
+    "Nickname | כינוי": "עמוד שיש",
+    "Latitude | קו רוחב": 31.778309,
+    "Longtitue | קו אורך": 35.193546,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 57,
+    "In-game name | שם התחנה במשחק": "Jerusalem Trail",
+    "Nickname | כינוי": "שביל ירושלים",
+    "Latitude | קו רוחב": 31.778575,
+    "Longtitue | קו אורך": 35.193127,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 58,
+    "In-game name | שם התחנה במשחק": "The David Yellin Teachers College",
+    "Nickname | כינוי": "דוד ילין",
+    "Latitude | קו רוחב": 31.781673,
+    "Longtitue | קו אורך": 35.190855,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 59,
+    "In-game name | שם התחנה במשחק": "Joseph and Rebecca Meyerhoff Cultural Center",
+    "Nickname | כינוי": "מרכז תרבות דוד ילין",
+    "Latitude | קו רוחב": 31.781918,
+    "Longtitue | קו אורך": 35.190977,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 60,
+    "In-game name | שם התחנה במשחק": "Raquela Garden",
+    "Nickname | כינוי": "גינת רחלה",
+    "Latitude | קו רוחב": 31.780183,
+    "Longtitue | קו אורך": 35.19254,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 61,
+    "In-game name | שם התחנה במשחק": "Central Synagog Beit",
+    "Nickname | כינוי": "בית כנסת בית הכרם",
+    "Latitude | קו רוחב": 31.780587,
+    "Longtitue | קו אורך": 35.190831,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 62,
+    "In-game name | שם התחנה במשחק": "Sculpture",
+    "Nickname | כינוי": "בית הוועד",
+    "Latitude | קו רוחב": 31.779417,
+    "Longtitue | קו אורך": 35.190384,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 63,
+    "In-game name | שם התחנה במשחק": "Glyph Mural",
+    "Nickname | כינוי": "הבנאי",
+    "Latitude | קו רוחב": 31.779068,
+    "Longtitue | קו אורך": 35.191291,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 64,
+    "In-game name | שם התחנה במשחק": "Shimon Les Memorial",
+    "Nickname | כינוי": "ויצ\"ו",
+    "Latitude | קו רוחב": 31.777304,
+    "Longtitue | קו אורך": 35.190994,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 65,
+    "In-game name | שם התחנה במשחק": "Community Garden Beit Hakerem",
+    "Nickname | כינוי": "גינה קהילתית בית הכרם",
+    "Latitude | קו רוחב": 31.776286,
+    "Longtitue | קו אורך": 35.193096,
+    "Neighborhood | שכונה/אזור": "בית הכרם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 66,
+    "In-game name | שם התחנה במשחק": "birds on the water",
+    "Nickname | כינוי": "ציפורים על המים",
+    "Latitude | קו רוחב": 31.771893,
+    "Longtitue | קו אורך": 35.200116,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 67,
+    "In-game name | שם התחנה במשחק": "Tranquil Oasis",
+    "Latitude | קו רוחב": 31.770619,
+    "Longtitue | קו אורך": 35.200976,
+    "Neighborhood | שכונה/אזור": "גבעת רם",
+    "Contributer | הוזן ע\"י": "RoyGut1993",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 68,
+    "In-game name | שם התחנה במשחק": "Choreographic Alphabet",
+    "Latitude | קו רוחב": 31.749694,
+    "Longtitue | קו אורך": 35.186667,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 69,
+    "In-game name | שם התחנה במשחק": "Alphabet Tree",
+    "Latitude | קו רוחב": 31.749667,
+    "Longtitue | קו אורך": 35.187389,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 70,
+    "In-game name | שם התחנה במשחק": "חסידה",
+    "Latitude | קו רוחב": 31.748667,
+    "Longtitue | קו אורך": 35.185667,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 71,
+    "In-game name | שם התחנה במשחק": "Walking Man 2",
+    "Latitude | קו רוחב": 31.749083,
+    "Longtitue | קו אורך": 35.185194,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 72,
+    "In-game name | שם התחנה במשחק": "האות דלת",
+    "Latitude | קו רוחב": 31.749694,
+    "Longtitue | קו אורך": 35.187,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 73,
+    "In-game name | שם התחנה במשחק": "אצטדיון טדי",
+    "Latitude | קו רוחב": 31.750972,
+    "Longtitue | קו אורך": 35.189861,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 74,
+    "In-game name | שם התחנה במשחק": "Malcha Bridge",
+    "Latitude | קו רוחב": 31.750944,
+    "Longtitue | קו אורך": 35.188417,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 75,
+    "In-game name | שם התחנה במשחק": "Malcha Mall",
+    "Nickname | כינוי": "קניון מלחה",
+    "Latitude | קו רוחב": 31.751083,
+    "Longtitue | קו אורך": 35.186944,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 76,
+    "In-game name | שם התחנה במשחק": "Malcha Tower",
+    "Nickname | כינוי": "בניין הגדול בגן הטכנולוגי",
+    "Latitude | קו רוחב": 31.750194,
+    "Longtitue | קו אורך": 35.186472,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 77,
+    "In-game name | שם התחנה במשחק": "Reflecting Balls and Pipes",
+    "Latitude | קו רוחב": 31.7505,
+    "Longtitue | קו אורך": 35.185917,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 78,
+    "In-game name | שם התחנה במשחק": "Jerusalem Rail Station",
+    "Latitude | קו רוחב": 31.747846,
+    "Longtitue | קו אורך": 35.18814,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 79,
+    "In-game name | שם התחנה במשחק": "Jerusalem Mall",
+    "Latitude | קו רוחב": 31.751721,
+    "Longtitue | קו אורך": 35.187813,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 80,
+    "In-game name | שם התחנה במשחק": "כפר מלחה - אתר היסטורי",
+    "Latitude | קו רוחב": 31.753038,
+    "Longtitue | קו אורך": 35.187421,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 81,
+    "In-game name | שם התחנה במשחק": "צרצר ביער",
+    "Latitude | קו רוחב": 31.746616,
+    "Longtitue | קו אורך": 35.183495,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 82,
+    "In-game name | שם התחנה במשחק": "חניון קק\"ל בואנוס איירס",
+    "Latitude | קו רוחב": 31.74597,
+    "Longtitue | קו אורך": 35.184391,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  },
+  {
+    "ID": 83,
+    "In-game name | שם התחנה במשחק": "Mosaic Sculpture",
+    "Latitude | קו רוחב": 31.752945,
+    "Longtitue | קו אורך": 35.190121,
+    "Neighborhood | שכונה/אזור": "מלחה",
+    "Contributer | הוזן ע\"י": "genghisdani",
+    "Photo | תמונה": true
+  }
+]

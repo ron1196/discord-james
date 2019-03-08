@@ -1,0 +1,1346 @@
+{
+   "Document": {
+      "name": "Pokemon Go Melbourne",
+      "description": "A detailed map listing all Gyms in certain areas of Melbourne",
+      "Style": [
+         {
+            "IconStyle": {
+               "color": "ff000000",
+               "scale": "1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+               },
+               "hotSpot": {
+                  "_x": "32",
+                  "_xunits": "pixels",
+                  "_y": "64",
+                  "_yunits": "insetPixels"
+               }
+            },
+            "LabelStyle": {
+               "scale": "0"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-1899-000000-nodesc-normal"
+         },
+         {
+            "IconStyle": {
+               "color": "ff000000",
+               "scale": "1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+               },
+               "hotSpot": {
+                  "_x": "32",
+                  "_xunits": "pixels",
+                  "_y": "64",
+                  "_yunits": "insetPixels"
+               }
+            },
+            "LabelStyle": {
+               "scale": "1"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-1899-000000-nodesc-highlight"
+         },
+         {
+            "IconStyle": {
+               "color": "ffd18802",
+               "scale": "1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+               },
+               "hotSpot": {
+                  "_x": "32",
+                  "_xunits": "pixels",
+                  "_y": "64",
+                  "_yunits": "insetPixels"
+               }
+            },
+            "LabelStyle": {
+               "scale": "0"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-1899-0288D1-nodesc-normal"
+         },
+         {
+            "IconStyle": {
+               "color": "ffd18802",
+               "scale": "1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+               },
+               "hotSpot": {
+                  "_x": "32",
+                  "_xunits": "pixels",
+                  "_y": "64",
+                  "_yunits": "insetPixels"
+               }
+            },
+            "LabelStyle": {
+               "scale": "1"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-1899-0288D1-nodesc-highlight"
+         },
+         {
+            "IconStyle": {
+               "color": "ff387109",
+               "scale": "1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+               },
+               "hotSpot": {
+                  "_x": "32",
+                  "_xunits": "pixels",
+                  "_y": "64",
+                  "_yunits": "insetPixels"
+               }
+            },
+            "LabelStyle": {
+               "scale": "0"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-1899-097138-nodesc-normal"
+         },
+         {
+            "IconStyle": {
+               "color": "ff387109",
+               "scale": "1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+               },
+               "hotSpot": {
+                  "_x": "32",
+                  "_xunits": "pixels",
+                  "_y": "64",
+                  "_yunits": "insetPixels"
+               }
+            },
+            "LabelStyle": {
+               "scale": "1"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-1899-097138-nodesc-highlight"
+         },
+         {
+            "IconStyle": {
+               "color": "ff2f8b55",
+               "scale": "1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+               },
+               "hotSpot": {
+                  "_x": "32",
+                  "_xunits": "pixels",
+                  "_y": "64",
+                  "_yunits": "insetPixels"
+               }
+            },
+            "LabelStyle": {
+               "scale": "0"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-1899-558B2F-nodesc-normal"
+         },
+         {
+            "IconStyle": {
+               "color": "ff2f8b55",
+               "scale": "1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+               },
+               "hotSpot": {
+                  "_x": "32",
+                  "_xunits": "pixels",
+                  "_y": "64",
+                  "_yunits": "insetPixels"
+               }
+            },
+            "LabelStyle": {
+               "scale": "1"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-1899-558B2F-nodesc-highlight"
+         }
+      ],
+      "StyleMap": [
+         {
+            "Pair": [
+               {
+                  "key": "normal",
+                  "styleUrl": "#icon-1899-000000-nodesc-normal"
+               },
+               {
+                  "key": "highlight",
+                  "styleUrl": "#icon-1899-000000-nodesc-highlight"
+               }
+            ],
+            "_id": "icon-1899-000000-nodesc"
+         },
+         {
+            "Pair": [
+               {
+                  "key": "normal",
+                  "styleUrl": "#icon-1899-0288D1-nodesc-normal"
+               },
+               {
+                  "key": "highlight",
+                  "styleUrl": "#icon-1899-0288D1-nodesc-highlight"
+               }
+            ],
+            "_id": "icon-1899-0288D1-nodesc"
+         },
+         {
+            "Pair": [
+               {
+                  "key": "normal",
+                  "styleUrl": "#icon-1899-097138-nodesc-normal"
+               },
+               {
+                  "key": "highlight",
+                  "styleUrl": "#icon-1899-097138-nodesc-highlight"
+               }
+            ],
+            "_id": "icon-1899-097138-nodesc"
+         },
+         {
+            "Pair": [
+               {
+                  "key": "normal",
+                  "styleUrl": "#icon-1899-558B2F-nodesc-normal"
+               },
+               {
+                  "key": "highlight",
+                  "styleUrl": "#icon-1899-558B2F-nodesc-highlight"
+               }
+            ],
+            "_id": "icon-1899-558B2F-nodesc"
+         }
+      ],
+      "Folder": [
+         {
+            "name": "Confirmed EX Gyms",
+            "Placemark": [
+               {
+                  "name": "Fawkner Park",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.982162,-37.845161,0"
+                  }
+               },
+               {
+                  "name": "Cricketers",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.982025,-37.839832,0"
+                  }
+               },
+               {
+                  "name": "Boulder in the Park",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.976288,-37.854881,0"
+                  }
+               },
+               {
+                  "name": "Orrong Romanis Recreation Centre",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "145.010391,-37.849773,0"
+                  }
+               },
+               {
+                  "name": "ABC Windmill",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "145.0000866,-37.8800753,0"
+                  }
+               },
+               {
+                  "name": "Dog Park - Alma Park South",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.9947154,-37.8615307,0"
+                  }
+               },
+               {
+                  "name": "The Listening Place",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.994057,-37.8607483,0"
+                  }
+               },
+               {
+                  "name": "Elsternwick Park",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.9933358,-37.8919418,0"
+                  }
+               },
+               {
+                  "name": "Obu Stone Lantern",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.983566,-37.869492,0"
+                  }
+               },
+               {
+                  "name": "Mural Tiles Greenhouse",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.982986,-37.869774,0"
+                  }
+               },
+               {
+                  "name": "St Kilda Conservatory",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.983109,-37.870899,0"
+                  }
+               },
+               {
+                  "name": "Local Native Plant Garden",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.983887,-37.87241,0"
+                  }
+               },
+               {
+                  "name": "Stone Flora",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.984558,-37.871784,0"
+                  }
+               },
+               {
+                  "name": "Marina Reserve Entrance",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.975983,-37.873028,0"
+                  }
+               },
+               {
+                  "name": "Elwood Sailing Club",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.983454,-37.888057,0"
+                  }
+               },
+               {
+                  "name": "Information Board APL109",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.977356,-37.853291,0"
+                  }
+               },
+               {
+                  "name": "Glasshouse Caulfield Park",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "145.025543,-37.870789,0"
+                  }
+               },
+               {
+                  "name": "Brookville Gardens",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "145.00972,-37.845711,0"
+                  }
+               },
+               {
+                  "name": "Grims Insane Memorial",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.995844,-37.858695,0"
+                  }
+               },
+               {
+                  "name": "Nightmare Before Christmas Mural",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.9930464,-37.8592272,0"
+                  }
+               },
+               {
+                  "name": "Pencil Fence",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "144.977463,-37.857445,0"
+                  }
+               },
+               {
+                  "name": "Caulfield Park Inkerman Road Entrance",
+                  "styleUrl": "#icon-1899-000000-nodesc",
+                  "Point": {
+                     "coordinates": "145.028152,-37.870071,0"
+                  }
+               }
+            ]
+         },
+         {
+            "name": "Gyms",
+            "Placemark": [
+               {
+                  "name": "Herbert Reserve",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.00355,-37.859553,0"
+                  }
+               },
+               {
+                  "name": "Club Tivoli",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.004329,-37.859119,0"
+                  }
+               },
+               {
+                  "name": "Alien on the Wall",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.982389,-37.856168,0"
+                  }
+               },
+               {
+                  "name": "Kitty Kat Mural",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.983727,-37.857237,0"
+                  }
+               },
+               {
+                  "name": "Caulfield Park",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.025383,-37.86982,0"
+                  }
+               },
+               {
+                  "name": "Paperboy - Caulfield Park",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.024875,-37.872527,0"
+                  }
+               },
+               {
+                  "name": "Tentacled Lover",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.983604,-37.855995,0"
+                  }
+               },
+               {
+                  "name": "Caulfield Park South Entrance",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.027763,-37.872944,0"
+                  }
+               },
+               {
+                  "name": "Blackhearts and Sparrows Mural",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.983849,-37.853585,0"
+                  }
+               },
+               {
+                  "name": "Tram Stop Shelter",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.980578,-37.850415,0"
+                  }
+               },
+               {
+                  "name": "Robert Hamilton Russell",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.984408,-37.846337,0"
+                  }
+               },
+               {
+                  "name": "Wesley College",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.984423,-37.848416,0"
+                  }
+               },
+               {
+                  "name": "AIA Sculptures",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.979831,-37.846987,0"
+                  }
+               },
+               {
+                  "name": "Bill Busting Bear",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.99123,-37.84332,0"
+                  }
+               },
+               {
+                  "name": "Court Jester",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.993916,-37.849115,0"
+                  }
+               },
+               {
+                  "name": "Bird Bath",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.983333,-37.846337,0"
+                  }
+               },
+               {
+                  "name": "Traffic Light Graffiti",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.995026,-37.847879,0"
+                  }
+               },
+               {
+                  "name": "Sakharov Hall",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.0001872,-37.8663057,0"
+                  }
+               },
+               {
+                  "name": "Flesh Veggies Mural",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.994471,-37.847669,0"
+                  }
+               },
+               {
+                  "name": "Speakeasy Lane",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.993695,-37.84663,0"
+                  }
+               },
+               {
+                  "name": "Man That Walks Through Walls Graffiti",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.991769,-37.846628,0"
+                  }
+               },
+               {
+                  "name": "Russian Orthodox Church",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.989164,-37.844074,0"
+                  }
+               },
+               {
+                  "name": "Jam Factory Smoke Stack",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.996054,-37.842618,0"
+                  }
+               },
+               {
+                  "name": "Chapel Backstreet Wall",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.995392,-37.84391,0"
+                  }
+               },
+               {
+                  "name": "Hawksburn Station",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.002196,-37.844934,0"
+                  }
+               },
+               {
+                  "name": "Windsor Train Station",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.991935,-37.856115,0"
+                  }
+               },
+               {
+                  "name": "Zombie Basketball Mural",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.99366,-37.853879,0"
+                  }
+               },
+               {
+                  "name": "Rock Dog",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.992154,-37.852514,0"
+                  }
+               },
+               {
+                  "name": "Pink Hair Mural",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.992616,-37.853162,0"
+                  }
+               },
+               {
+                  "name": "Toorak Station",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.013818,-37.850811,0"
+                  }
+               },
+               {
+                  "name": "Our Lady of Lourdes Parish of Armadale",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.009087,-37.853874,0"
+                  }
+               },
+               {
+                  "name": {
+                     "__cdata": "St Verena's Coptic Orthodox Church"
+                  },
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.01169,-37.85271,0"
+                  }
+               },
+               {
+                  "name": "Old Orrong Hotel",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.011682,-37.854215,0"
+                  }
+               },
+               {
+                  "name": "Australia Post",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.01002,-37.863373,0"
+                  }
+               },
+               {
+                  "name": "Sassoon Yehuda Synagogue",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.9997575,-37.8671998,0"
+                  }
+               },
+               {
+                  "name": "St Kilda Chapel",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.9919742,-37.8609547,0"
+                  }
+               },
+               {
+                  "name": "This Tree Plaque",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.9953082,-37.8586984,0"
+                  }
+               },
+               {
+                  "name": "The Cyclops",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.993595,-37.876999,0"
+                  }
+               },
+               {
+                  "name": "Martin Prince Mural",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.994748,-37.876595,0"
+                  }
+               },
+               {
+                  "name": "Black Caviar Mural",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.035372,-37.873895,0"
+                  }
+               },
+               {
+                  "name": "Ripponlea Railway Station",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.995045,-37.875959,0"
+                  }
+               },
+               {
+                  "name": "Laneway Mural",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.995058,-37.873656,0"
+                  }
+               },
+               {
+                  "name": "Mei Fung Mural",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.99189,-37.870317,0"
+                  }
+               },
+               {
+                  "name": "Happy Guy",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.991143,-37.868556,0"
+                  }
+               },
+               {
+                  "name": "Las Chicas Mural",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.993301,-37.868873,0"
+                  }
+               },
+               {
+                  "name": "Saint Colmans Church",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.996818,-37.869301,0"
+                  }
+               },
+               {
+                  "name": "Yehuda Dadon Synagogue",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.998497,-37.869158,0"
+                  }
+               },
+               {
+                  "name": "St. Kilda Public Library",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.988723,-37.868052,0"
+                  }
+               },
+               {
+                  "name": "St Kilda City Hall",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.988226,-37.868567,0"
+                  }
+               },
+               {
+                  "name": "Transformers Mural",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.988459,-37.865318,0"
+                  }
+               },
+               {
+                  "name": "Funny Green Man and Toadstool",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.991263,-37.880258,0"
+                  }
+               },
+               {
+                  "name": "Victoria Bitter Sign, Elsternwick Hotel",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.996507,-37.883695,0"
+                  }
+               },
+               {
+                  "name": "Beit HaMashiach",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.02846,-37.889989,0"
+                  }
+               },
+               {
+                  "name": "Former Elsternwick Post Office",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.001766,-37.8845,0"
+                  }
+               },
+               {
+                  "name": {
+                     "__cdata": "\"Kore\" Sculpture"
+                  },
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.004217,-37.884657,0"
+                  }
+               },
+               {
+                  "name": "Screen Fiend",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.00552,-37.884507,0"
+                  }
+               },
+               {
+                  "name": {
+                     "__cdata": "St John's Uniting Church Elsternwick"
+                  },
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.011939,-37.885572,0"
+                  }
+               },
+               {
+                  "name": "Giant Hanging Guitar",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.01423,-37.885874,0"
+                  }
+               },
+               {
+                  "name": "Rainbow Brick Art",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.018016,-37.886563,0"
+                  }
+               },
+               {
+                  "name": "Word Wall",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.98317,-37.86529,0"
+                  }
+               },
+               {
+                  "name": "Lyell Street Art Display",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.983865,-37.865152,0"
+                  }
+               },
+               {
+                  "name": "Book Tours Here",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.981542,-37.864498,0"
+                  }
+               },
+               {
+                  "name": "Vespa Stone",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.980431,-37.867781,0"
+                  }
+               },
+               {
+                  "name": "99 Acland Street",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.979095,-37.868282,0"
+                  }
+               },
+               {
+                  "name": "Saint Kilda Mural",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.980838,-37.870423,0"
+                  }
+               },
+               {
+                  "name": "The Lodge, Brighton Cemetery",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.021299,-37.900011,0"
+                  }
+               },
+               {
+                  "name": {
+                     "__cdata": "Penhalluriack's Building Supplies Mural"
+                  },
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.022347,-37.885781,0"
+                  }
+               },
+               {
+                  "name": "Princes Park East",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.027224,-37.895344,0"
+                  }
+               },
+               {
+                  "name": "Sun Ra",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.9757,-37.872212,0"
+                  }
+               },
+               {
+                  "name": "Earth and Moon",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.97607,-37.870866,0"
+                  }
+               },
+               {
+                  "name": "Tuck Shop Take Away",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.023478,-37.879979,0"
+                  }
+               },
+               {
+                  "name": "Central Community Centre",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.022048,-37.893782,0"
+                  }
+               },
+               {
+                  "name": "African Wall Mural",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.020911,-37.894185,0"
+                  }
+               },
+               {
+                  "name": "Bazooka",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.98283,-37.856087,0"
+                  }
+               },
+               {
+                  "name": "Overgrowth Church",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.980295,-37.858398,0"
+                  }
+               },
+               {
+                  "name": "Luna Park Archway",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.976829,-37.867242,0"
+                  }
+               },
+               {
+                  "name": "Rosstown Trail: Bambra Road",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.027451,-37.895984,0"
+                  }
+               },
+               {
+                  "name": "The Future Vitality of Caulfield",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.023009,-37.88016,0"
+                  }
+               },
+               {
+                  "name": "The Elephant and Wheelbarrow",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.980649,-37.858039,0"
+                  }
+               },
+               {
+                  "name": "The London Tavern",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.02132,-37.889772,0"
+                  }
+               },
+               {
+                  "name": "Edwin Knox Memorial",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.97295,-37.862096,0"
+                  }
+               },
+               {
+                  "name": "Fitzroy Street Post Office",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.977252,-37.860038,0"
+                  }
+               },
+               {
+                  "name": "History of Elwood",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "144.985397,-37.89127,0"
+                  }
+               },
+               {
+                  "name": "Moran Reserve",
+                  "styleUrl": "#icon-1899-097138-nodesc",
+                  "Point": {
+                     "coordinates": "144.977036,-37.878521,0"
+                  }
+               },
+               {
+                  "name": "Elwood Park",
+                  "styleUrl": "#icon-1899-097138-nodesc",
+                  "Point": {
+                     "coordinates": "144.984756,-37.888351,0"
+                  }
+               },
+               {
+                  "name": "Elwood Beacon",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.976166,-37.88195,0"
+                  }
+               },
+               {
+                  "name": "Richmond Fellowship of Victoria",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.980728,-37.885506,0"
+                  }
+               },
+               {
+                  "name": "Carlo Catani Clock Tower",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.972946,-37.865063,0"
+                  }
+               },
+               {
+                  "name": "War Memorial Albert Square St Kilda",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.973801,-37.864883,0"
+                  }
+               },
+               {
+                  "name": "Sailing Ship Memorial Fountain",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.971878,-37.863728,0"
+                  }
+               },
+               {
+                  "name": "Sir William Rooke Creswell",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.971741,-37.863209,0"
+                  }
+               },
+               {
+                  "name": "Tall Gazebo",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.010601,-37.886847,0"
+                  }
+               },
+               {
+                  "name": "Clarke Shields Pavilion",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.971695,-37.853622,0"
+                  }
+               },
+               {
+                  "name": "YWCA Rowing Centre",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.97702,-37.850304,0"
+                  }
+               },
+               {
+                  "name": "Catani Gardens - Rotunda",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.971542,-37.861546,0"
+                  }
+               },
+               {
+                  "name": "Bill Woodfull Pavilion",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.968155,-37.847805,0"
+                  }
+               },
+               {
+                  "name": "Community Playground",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.966553,-37.848263,0"
+                  }
+               },
+               {
+                  "name": "Legacy of Inspiration",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.971664,-37.848591,0"
+                  }
+               },
+               {
+                  "name": "History of Albert Park",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.963608,-37.842392,0"
+                  }
+               },
+               {
+                  "name": "Palms Lawn",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.964722,-37.841888,0"
+                  }
+               },
+               {
+                  "name": "Lakeside Stadium",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.965744,-37.841309,0"
+                  }
+               },
+               {
+                  "name": "Fawkner Park",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.981628,-37.837883,0"
+                  }
+               },
+               {
+                  "name": "MacFarlan Street Reserve",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.988297,-37.840687,0"
+                  }
+               },
+               {
+                  "name": "Connell Park",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.985474,-37.848583,0"
+                  }
+               },
+               {
+                  "name": "Harry Gregory Reserve",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.996292,-37.853706,0"
+                  }
+               },
+               {
+                  "name": "Victoria Gardens War Memorial",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.000595,-37.852188,0"
+                  }
+               },
+               {
+                  "name": "Mayoral Park",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.996338,-37.853477,0"
+                  }
+               },
+               {
+                  "name": "Heart ? Check",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.966751,-37.838875,0"
+                  }
+               },
+               {
+                  "name": "Winged Victory",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.000961,-37.851528,0"
+                  }
+               },
+               {
+                  "name": "Inverness Avenue Reserve",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.022141,-37.859661,0"
+                  }
+               },
+               {
+                  "name": "Caulfield Park War Memorial",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.025604,-37.871662,0"
+                  }
+               },
+               {
+                  "name": "Orrong Romanis Reserve",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.012054,-37.85009,0"
+                  }
+               },
+               {
+                  "name": "Memorial Park Arch of Plaques",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.017715,-37.870453,0"
+                  }
+               },
+               {
+                  "name": "East Caulfield Park Rotunda And Bbq Facility",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.046509,-37.879364,0"
+                  }
+               },
+               {
+                  "name": "Caulfield South Infinity Fountain",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.022781,-37.893269,0"
+                  }
+               },
+               {
+                  "name": "Arthur Augustus Calwell",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.023911,-37.893085,0"
+                  }
+               },
+               {
+                  "name": "East Caulfield Reserve",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.048889,-37.880302,0"
+                  }
+               },
+               {
+                  "name": "Princes Park East Entrance",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.027328,-37.894543,0"
+                  }
+               },
+               {
+                  "name": "Hon.George Ward Cole",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.983688,-37.902267,0"
+                  }
+               },
+               {
+                  "name": "The Baths Marker",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.98613,-37.91003,0"
+                  }
+               },
+               {
+                  "name": "Gardenvale Rotunda",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.009735,-37.896675,0"
+                  }
+               },
+               {
+                  "name": "Brighton Library",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.998016,-37.910603,0"
+                  }
+               },
+               {
+                  "name": "The Rotary Endeavour",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.985809,-37.897545,0"
+                  }
+               },
+               {
+                  "name": "Middle Brighton Beach Entrance",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.987061,-37.917004,0"
+                  }
+               },
+               {
+                  "name": "Little Brighton Reserve",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.018311,-37.908913,0"
+                  }
+               },
+               {
+                  "name": "Brighton War Memorial",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.986526,-37.925888,0"
+                  }
+               },
+               {
+                  "name": "Brighton City Avenue Of Honour",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.013565,-37.910622,0"
+                  }
+               },
+               {
+                  "name": "Landcox Park North East",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "145.014603,-37.905491,0"
+                  }
+               },
+               {
+                  "name": "Elsternwick Park Rotund",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.993958,-37.891956,0"
+                  }
+               },
+               {
+                  "name": "Albert Park Yacht Club",
+                  "styleUrl": "#icon-1899-558B2F-nodesc",
+                  "Point": {
+                     "coordinates": "144.966949,-37.840832,0"
+                  }
+               },
+               {
+                  "name": "Oaktree Anglican Church",
+                  "styleUrl": "#icon-1899-0288D1-nodesc",
+                  "Point": {
+                     "coordinates": "145.012655,-37.878351,0"
+                  }
+               }
+            ]
+         }
+      ]
+   },
+   "_xmlns": "http://www.opengis.net/kml/2.2"
+}

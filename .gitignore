@@ -1,5 +1,2 @@
-config.json
-
 logs/
-data/
 *.pyc

@@ -1,0 +1,1048 @@
+{
+   "Document": {
+      "name": "Pokèmon Go Gyms - Ashdod",
+      "description": "This map shows all the gyms in Pokèmon Go in Ashdod.",
+      "Style": [
+         {
+            "IconStyle": {
+               "color": "ff000000",
+               "scale": "1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+               }
+            },
+            "LabelStyle": {
+               "scale": "0"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-1502-000000-nodesc-normal"
+         },
+         {
+            "IconStyle": {
+               "color": "ff000000",
+               "scale": "1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+               }
+            },
+            "LabelStyle": {
+               "scale": "1"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-1502-000000-nodesc-highlight"
+         },
+         {
+            "IconStyle": {
+               "color": "ff0051e6",
+               "scale": "1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+               }
+            },
+            "LabelStyle": {
+               "scale": "0"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-1761-E65100-nodesc-normal"
+         },
+         {
+            "IconStyle": {
+               "color": "ff0051e6",
+               "scale": "1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+               }
+            },
+            "LabelStyle": {
+               "scale": "1"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-1761-E65100-nodesc-highlight"
+         },
+         {
+            "IconStyle": {
+               "color": "ff3644db",
+               "scale": "1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+               },
+               "hotSpot": {
+                  "_x": "32",
+                  "_xunits": "pixels",
+                  "_y": "64",
+                  "_yunits": "insetPixels"
+               }
+            },
+            "LabelStyle": {
+               "scale": "0"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-1899-DB4436-nodesc-normal"
+         },
+         {
+            "IconStyle": {
+               "color": "ff3644db",
+               "scale": "1",
+               "Icon": {
+                  "href": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+               },
+               "hotSpot": {
+                  "_x": "32",
+                  "_xunits": "pixels",
+                  "_y": "64",
+                  "_yunits": "insetPixels"
+               }
+            },
+            "LabelStyle": {
+               "scale": "1"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "icon-1899-DB4436-nodesc-highlight"
+         },
+         {
+            "LineStyle": {
+               "color": "ffff6712",
+               "width": "5"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "line-1267FF-5000-nodesc-normal"
+         },
+         {
+            "LineStyle": {
+               "color": "ffff6712",
+               "width": "7.5"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "line-1267FF-5000-nodesc-highlight"
+         },
+         {
+            "LineStyle": {
+               "color": "ff4f0e88",
+               "width": "4.294"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "line-880E4F-4294-nodesc-normal"
+         },
+         {
+            "LineStyle": {
+               "color": "ff4f0e88",
+               "width": "6.441"
+            },
+            "BalloonStyle": {
+               "text": {
+                  "__cdata": "<h3>$[name]</h3>"
+               }
+            },
+            "_id": "line-880E4F-4294-nodesc-highlight"
+         }
+      ],
+      "StyleMap": [
+         {
+            "Pair": [
+               {
+                  "key": "normal",
+                  "styleUrl": "#icon-1502-000000-nodesc-normal"
+               },
+               {
+                  "key": "highlight",
+                  "styleUrl": "#icon-1502-000000-nodesc-highlight"
+               }
+            ],
+            "_id": "icon-1502-000000-nodesc"
+         },
+         {
+            "Pair": [
+               {
+                  "key": "normal",
+                  "styleUrl": "#icon-1761-E65100-nodesc-normal"
+               },
+               {
+                  "key": "highlight",
+                  "styleUrl": "#icon-1761-E65100-nodesc-highlight"
+               }
+            ],
+            "_id": "icon-1761-E65100-nodesc"
+         },
+         {
+            "Pair": [
+               {
+                  "key": "normal",
+                  "styleUrl": "#icon-1899-DB4436-nodesc-normal"
+               },
+               {
+                  "key": "highlight",
+                  "styleUrl": "#icon-1899-DB4436-nodesc-highlight"
+               }
+            ],
+            "_id": "icon-1899-DB4436-nodesc"
+         },
+         {
+            "Pair": [
+               {
+                  "key": "normal",
+                  "styleUrl": "#line-1267FF-5000-nodesc-normal"
+               },
+               {
+                  "key": "highlight",
+                  "styleUrl": "#line-1267FF-5000-nodesc-highlight"
+               }
+            ],
+            "_id": "line-1267FF-5000-nodesc"
+         },
+         {
+            "Pair": [
+               {
+                  "key": "normal",
+                  "styleUrl": "#line-880E4F-4294-nodesc-normal"
+               },
+               {
+                  "key": "highlight",
+                  "styleUrl": "#line-880E4F-4294-nodesc-highlight"
+               }
+            ],
+            "_id": "line-880E4F-4294-nodesc"
+         }
+      ],
+      "Folder": [
+         {
+            "name": "Gyms",
+            "Placemark": [
+               {
+                  "name": "Avi Fisher Statue",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6303278,31.7965645,0"
+                  }
+               },
+               {
+                  "name": "Angel",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6309768,31.7902495,0"
+                  }
+               },
+               {
+                  "name": "Beach Playground",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6273452,31.7904593,0"
+                  }
+               },
+               {
+                  "name": "Open Gazebo",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6305531,31.7898574,0"
+                  }
+               },
+               {
+                  "name": "Running People Square",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6277368,31.7875365,0"
+                  }
+               },
+               {
+                  "name": "Small Butterfly Switchbox",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6398818,31.7894151,0"
+                  }
+               },
+               {
+                  "name": "פסל כדורי",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6295285,31.7923332,0"
+                  }
+               },
+               {
+                  "name": "Fish Fish Garden",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6321571,31.7986799,0"
+                  }
+               },
+               {
+                  "name": "Block of Seagulls",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6331871,31.8010599,0"
+                  }
+               },
+               {
+                  "name": "Hooraa Statue",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.63588,31.7998836,0"
+                  }
+               },
+               {
+                  "name": "Roosters Gate",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6378112,31.7978046,0"
+                  }
+               },
+               {
+                  "name": "פסל אדוארד דולקרט",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6356976,31.7960538,0"
+                  }
+               },
+               {
+                  "name": "Dolphin Switchbox",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6418345,31.7947407,0"
+                  }
+               },
+               {
+                  "name": "Colour Fontain",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6381975,31.791394,0"
+                  }
+               },
+               {
+                  "name": "The Sailboats",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.633466,31.792543,0"
+                  }
+               },
+               {
+                  "name": "State of War Victims in Ashdod",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.640944,31.7923971,0"
+                  }
+               },
+               {
+                  "name": "Frog Bush Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6408153,31.7896613,0"
+                  }
+               },
+               {
+                  "name": "מרכזייה כתומה מזמר",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6454394,31.7888497,0"
+                  }
+               },
+               {
+                  "name": "Beit Itzhak Synagogue",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6432614,31.7869528,0"
+                  }
+               },
+               {
+                  "name": "Nova Solar",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6470272,31.7867522,0"
+                  }
+               },
+               {
+                  "name": "Giraffe Land Statue",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6465552,31.7861138,0"
+                  }
+               },
+               {
+                  "name": "Family Violence Victims Memorial",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6492803,31.7914122,0"
+                  }
+               },
+               {
+                  "name": "Bears Bush Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.650203,31.7847823,0"
+                  }
+               },
+               {
+                  "name": "Hoopoe Yellow",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6549774,31.7844084,0"
+                  }
+               },
+               {
+                  "name": "Ball in Circle",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6550202,31.782785,0"
+                  }
+               },
+               {
+                  "name": "Shaft Guitar",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6536148,31.7899897,0"
+                  }
+               },
+               {
+                  "name": "Blue Alto Fusebox Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6581209,31.7885214,0"
+                  }
+               },
+               {
+                  "name": "Guitar Fusebox",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6478319,31.7821923,0"
+                  }
+               },
+               {
+                  "name": "Contrabassist",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6440553,31.7835238,0"
+                  }
+               },
+               {
+                  "name": "Kapellmeister",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6431863,31.7838156,0"
+                  }
+               },
+               {
+                  "name": "Birdie Fusebox Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6503854,31.777094,0"
+                  }
+               },
+               {
+                  "name": "Elephant Garden",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6630454,31.7788724,0"
+                  }
+               },
+               {
+                  "name": "The Crocodile",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6592045,31.7833778,0"
+                  }
+               },
+               {
+                  "name": "ר. חזק",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6603847,31.7844722,0"
+                  }
+               },
+               {
+                  "name": "The Other Side",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6434116,31.7758262,0"
+                  }
+               },
+               {
+                  "name": "Warrior-Jewish Memorial",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6430254,31.7755525,0"
+                  }
+               },
+               {
+                  "name": "Dessert Rock",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6415877,31.7728619,0"
+                  }
+               },
+               {
+                  "name": "לזכר רחמים חדד",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6377039,31.7730808,0"
+                  }
+               },
+               {
+                  "name": "House of a Guarding Angel",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6315348,31.7719498,0"
+                  }
+               },
+               {
+                  "name": "Muday Square",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6338201,31.7751604,0"
+                  }
+               },
+               {
+                  "name": "Ofem Square",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6278334,31.7730078,0"
+                  }
+               },
+               {
+                  "name": "Earth Gnomes",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6267819,31.7695691,0"
+                  }
+               },
+               {
+                  "name": "Two Flowers",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6310627,31.7764646,0"
+                  }
+               },
+               {
+                  "name": "Tea Pot",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6268677,31.7761272,0"
+                  }
+               },
+               {
+                  "name": "Yellow Butterfly Fusebox",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6225333,31.7678452,0"
+                  }
+               },
+               {
+                  "name": "UFO Sun Eye",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.621321,31.7716579,0"
+                  }
+               },
+               {
+                  "name": "כיכר החיים",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.619422,31.7728893,0"
+                  }
+               },
+               {
+                  "name": "Tombs",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6235096,31.7772581,0"
+                  }
+               },
+               {
+                  "name": "Butterfly Fusebox Street Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6278763,31.7785168,0"
+                  }
+               },
+               {
+                  "name": "Owl Fusebox Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6291637,31.7794835,0"
+                  }
+               },
+               {
+                  "name": "The Parks Bell",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6371567,31.7772308,0"
+                  }
+               },
+               {
+                  "name": "Sea Piller",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6389592,31.7787356,0"
+                  }
+               },
+               {
+                  "name": "Columns Monument Square",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6382189,31.7814535,0"
+                  }
+               },
+               {
+                  "name": "More More Dolphins!",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6356868,31.7780334,0"
+                  }
+               },
+               {
+                  "name": "Dream of Freedom",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6333158,31.7813805,0"
+                  }
+               },
+               {
+                  "name": "Father Abraham Synagogue",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6351933,31.7831863,0"
+                  }
+               },
+               {
+                  "name": "Stone Tree",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6316635,31.7840892,0"
+                  }
+               },
+               {
+                  "name": "Aviel Garden",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6397531,31.8005492,0"
+                  }
+               },
+               {
+                  "name": "Dove, Bordeaux Park",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6403646,31.8014337,0"
+                  }
+               },
+               {
+                  "name": "Butterfly on the Red Flower",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6431112,31.7999565,0"
+                  }
+               },
+               {
+                  "name": "Big Frog Switchbox",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6436047,31.7980325,0"
+                  }
+               },
+               {
+                  "name": "Workers Roundabout",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.642607,31.8038499,0"
+                  }
+               },
+               {
+                  "name": "Small Lighthouse",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6383047,31.8084545,0"
+                  }
+               },
+               {
+                  "name": "Pressure",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6392703,31.808965,0"
+                  }
+               },
+               {
+                  "name": "Navy Memorial",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6416629,31.8094939,0"
+                  }
+               },
+               {
+                  "name": "Three Apples Square",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6396351,31.8114631,0"
+                  }
+               },
+               {
+                  "name": "Mix FuseBox",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6434116,31.8103235,0"
+                  }
+               },
+               {
+                  "name": "Compass Star of Alef",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6442056,31.8082539,0"
+                  }
+               },
+               {
+                  "name": "Purple Flowers",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6489584,31.8100044,0"
+                  }
+               },
+               {
+                  "name": "Flowers Fusebox Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6514046,31.8105059,0"
+                  }
+               },
+               {
+                  "name": "Colibri Fusebox Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6501708,31.8069045,0"
+                  }
+               },
+               {
+                  "name": "Bet",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6520698,31.8054729,0"
+                  }
+               },
+               {
+                  "name": "מריה הקדושה Maria",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6481645,31.8141345,0"
+                  }
+               },
+               {
+                  "name": "Ship Rotor Monument",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6489907,31.815265,0"
+                  }
+               },
+               {
+                  "name": {
+                     "__cdata": "Lachish's Mall Memorial"
+                  },
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6444524,31.8157299,0"
+                  }
+               },
+               {
+                  "name": "Seagulls",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6535182,31.8131772,0"
+                  }
+               },
+               {
+                  "name": "פסל ציפור",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6514368,31.8180455,0"
+                  }
+               },
+               {
+                  "name": {
+                     "__cdata": "Children's Playground In Lachish Park"
+                  },
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6547734,31.8189481,0"
+                  }
+               },
+               {
+                  "name": "Welcome to Ashdod",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6714354,31.8285473,0"
+                  }
+               },
+               {
+                  "name": "Bridge to Heaven",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6703088,31.8247552,0"
+                  }
+               },
+               {
+                  "name": "Just Sitting",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6692145,31.8206164,0"
+                  }
+               },
+               {
+                  "name": "Pink Dolphin",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6675408,31.8195772,0"
+                  }
+               },
+               {
+                  "name": "Free Masons",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.664247,31.81036,0"
+                  }
+               },
+               {
+                  "name": "Gorilla Bar",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6579707,31.8084544,0"
+                  }
+               },
+               {
+                  "name": "Orot Haim Vemoshe Rabbi David Pinto",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6642148,31.80478,0"
+                  }
+               },
+               {
+                  "name": "Trumpeter Fusebox Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6597624,31.8047344,0"
+                  }
+               },
+               {
+                  "name": "Zodiac Wall Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6591187,31.8053726,0"
+                  }
+               },
+               {
+                  "name": "Jazz Musicians Fusebox Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6566617,31.8065854,0"
+                  }
+               },
+               {
+                  "name": "Municipal Center for Yorth (Murals on Wall)",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6547735,31.8038044,0"
+                  }
+               },
+               {
+                  "name": "Lalala Fusebox Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6539795,31.8016343,0"
+                  }
+               },
+               {
+                  "name": "Fusebox Frog Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6530891,31.8010142,0"
+                  }
+               },
+               {
+                  "name": "Shelter 76",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.652617,31.800686,0"
+                  }
+               },
+               {
+                  "name": "Bronze Musicians",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6507501,31.8007681,0"
+                  }
+               },
+               {
+                  "name": {
+                     "__cdata": "רח' חנה סנש"
+                  },
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6624446,31.7996374,0"
+                  }
+               },
+               {
+                  "name": {
+                     "__cdata": "ביהמ''ד ומרכז חסידי בעלזא"
+                  },
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6646977,31.8001298,0"
+                  }
+               },
+               {
+                  "name": "Playground Wall Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6552026,31.7948409,0"
+                  }
+               },
+               {
+                  "name": "Мухоморы",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6527028,31.7934914,0"
+                  }
+               },
+               {
+                  "name": "Cups",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6601701,31.7903543,0"
+                  }
+               },
+               {
+                  "name": "Institutions Center",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6504498,31.795917,0"
+                  }
+               },
+               {
+                  "name": "Pyramid",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6497953,31.7949322,0"
+                  }
+               },
+               {
+                  "name": "Ninja Rock Fusebox Art",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6496451,31.7981419,0"
+                  }
+               },
+               {
+                  "name": {
+                     "__cdata": "אקדמיה במקיף ד'"
+                  },
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6449673,31.797303,0"
+                  }
+               },
+               {
+                  "name": "Orca Whales Fusebox",
+                  "styleUrl": "#icon-1761-E65100-nodesc",
+                  "Point": {
+                     "coordinates": "34.6372372,31.7854845,0"
+                  }
+               }
+            ]
+         },
+         {
+            "name": "מסלולים",
+            "Placemark": [
+               {
+                  "name": "5 Free Raid Walking Route",
+                  "styleUrl": "#line-880E4F-4294-nodesc",
+                  "LineString": {
+                     "tessellate": "1",
+                     "coordinates": "34.6303278,31.7965645,0\n            34.6306309,31.7968745,0\n            34.6313403,31.797303,0\n            34.6322,31.798607,0\n            34.6328867,31.7998426,0\n            34.6331871,31.8010599,0\n            34.6341902,31.8003988,0\n            34.635078,31.8000774,0\n            34.6353074,31.7999258,0\n            34.6353791,31.7997588,0\n            34.6357047,31.7996571,0\n            34.63588,31.7998836,0\n            34.6366525,31.7998562,0\n            34.636792,31.7996898,0\n            34.6369154,31.7996203,0\n            34.6371246,31.7996055,0\n            34.6378112,31.7978046,0"
+                  }
+               }
+            ]
+         },
+         {
+            "name": "3-hour Raids Driving Route",
+            "Placemark": [
+               {
+                  "name": "Directions from Avi Fisher Statue\n to Sderot Bnei Brit, Ashdod, Israel",
+                  "styleUrl": "#line-1267FF-5000-nodesc",
+                  "LineString": {
+                     "tessellate": "1",
+                     "coordinates": "34.63042,31.79652,0\n            34.63042,31.79651,0\n            34.63036,31.79645,0\n            34.63026,31.79638,0\n            34.63014,31.79623,0\n            34.63009,31.7961,0\n            34.63008,31.79603,0\n            34.63009,31.79601,0\n            34.63014,31.79597,0\n            34.6302,31.79595,0\n            34.63065,31.7959,0\n            34.63065,31.79589,0\n            34.63064,31.79588,0\n            34.63064,31.79583,0\n            34.63065,31.79582,0\n            34.63065,31.7958,0\n            34.63066,31.79579,0\n            34.63066,31.79578,0\n            34.63069,31.79575,0\n            34.63069,31.79574,0\n            34.6307,31.79574,0\n            34.63071,31.79573,0\n            34.63072,31.79573,0\n            34.63073,31.79572,0\n            34.63074,31.79572,0\n            34.63076,31.79571,0\n            34.63077,31.79571,0\n            34.63078,31.7957,0\n            34.63086,31.7957,0\n            34.63088,31.79571,0\n            34.63089,31.79571,0\n            34.6309,31.79572,0\n            34.63091,31.79572,0\n            34.63092,31.79573,0\n            34.63093,31.79573,0\n            34.63094,31.79574,0\n            34.63095,31.79574,0\n            34.63096,31.79575,0\n            34.63096,31.79576,0\n            34.63098,31.79578,0\n            34.63098,31.79579,0\n            34.63099,31.7958,0\n            34.63099,31.79581,0\n            34.631,31.79582,0\n            34.631,31.79589,0\n            34.63099,31.7959,0\n            34.63099,31.79591,0\n            34.63098,31.79592,0\n            34.63098,31.79593,0\n            34.63096,31.79595,0\n            34.63105,31.79617,0\n            34.63139,31.79675,0\n            34.63157,31.79688,0\n            34.63179,31.79697,0\n            34.63198,31.797,0\n            34.63219,31.79698,0\n            34.6322,31.79697,0\n            34.6322,31.79696,0\n            34.63222,31.79694,0\n            34.63223,31.79694,0\n            34.63223,31.79693,0\n            34.63224,31.79692,0\n            34.63225,31.79692,0\n            34.63226,31.79691,0\n            34.63228,31.79691,0\n            34.63229,31.7969,0\n            34.63239,31.7969,0\n            34.6324,31.79691,0\n            34.63242,31.79691,0\n            34.63243,31.79692,0\n            34.63244,31.79692,0\n            34.63245,31.79693,0\n            34.63246,31.79693,0\n            34.63246,31.79694,0\n            34.63247,31.79695,0\n            34.63248,31.79695,0\n            34.63248,31.79696,0\n            34.6325,31.79698,0\n            34.6325,31.797,0\n            34.63251,31.797,0\n            34.63251,31.79708,0\n            34.6325,31.79709,0\n            34.6325,31.7971,0\n            34.63249,31.79711,0\n            34.63249,31.79712,0\n            34.63247,31.79714,0\n            34.6327,31.79773,0\n            34.63294,31.79815,0\n            34.63307,31.79832,0\n            34.6332,31.79843,0\n            34.63434,31.79906,0\n            34.63465,31.79916,0\n            34.63472,31.79913,0\n            34.63479,31.79913,0\n            34.63481,31.79914,0\n            34.63483,31.79914,0\n            34.63487,31.79916,0\n            34.63488,31.79916,0\n            34.63494,31.7992,0\n            34.63497,31.79924,0\n            34.63497,31.79925,0\n            34.63515,31.79937,0\n            34.63551,31.79951,0\n            34.63649,31.79974,0\n            34.63677,31.79977,0\n            34.6368,31.79973,0\n            34.63686,31.79968,0\n            34.63696,31.79965,0\n            34.6375,31.79793,0\n            34.63755,31.79744,0\n            34.63754,31.7968,0\n            34.63748,31.7963,0\n            34.63722,31.79565,0\n            34.63674,31.79479,0\n            34.63625,31.79421,0\n            34.63584,31.79383,0\n            34.63477,31.79305,0\n            34.6346,31.79296,0\n            34.63436,31.79292,0\n            34.63422,31.79298,0\n            34.63397,31.79299,0\n            34.6339,31.79297,0\n            34.63382,31.79292,0\n            34.6338,31.79292,0\n            34.63368,31.79281,0\n            34.63362,31.79272,0\n            34.63359,31.79261,0\n            34.63358,31.7925,0\n            34.63359,31.79245,0\n            34.63347,31.79228,0\n            34.63334,31.79218,0\n            34.63057,31.7905,0\n            34.63055,31.7905,0\n            34.63054,31.79051,0\n            34.63052,31.79051,0\n            34.6305,31.79052,0\n            34.63043,31.79051,0\n            34.63042,31.7905,0\n            34.63041,31.7905,0\n            34.63037,31.79048,0\n            34.63036,31.79046,0\n            34.63034,31.79045,0\n            34.63032,31.79041,0\n            34.63032,31.7904,0\n            34.63031,31.79039,0\n            34.63031,31.79033,0\n            34.63012,31.79016,0\n            34.62961,31.78978,0\n            34.62912,31.78935,0\n            34.62829,31.78841,0\n            34.62777,31.78764,0\n            34.6277,31.78756,0\n            34.62766,31.78756,0\n            34.62764,31.78755,0\n            34.62763,31.78755,0\n            34.62762,31.78754,0\n            34.6276,31.78754,0\n            34.62757,31.78751,0\n            34.62756,31.78751,0\n            34.62753,31.78748,0\n            34.62753,31.78746,0\n            34.62752,31.78745,0\n            34.62752,31.78744,0\n            34.62751,31.78743,0\n            34.62751,31.78736,0\n            34.62752,31.78734,0\n            34.62752,31.78733,0\n            34.62756,31.78728,0\n            34.62753,31.78716,0\n            34.62587,31.78325,0\n            34.62575,31.78304,0\n            34.62573,31.78304,0\n            34.6257,31.78302,0\n            34.62569,31.78302,0\n            34.62566,31.78299,0\n            34.62565,31.78297,0\n            34.62563,31.78296,0\n            34.62563,31.78294,0\n            34.62562,31.78292,0\n            34.62562,31.78286,0\n            34.62564,31.78283,0\n            34.62562,31.78266,0\n            34.62555,31.78243,0\n            34.62465,31.78024,0\n            34.62456,31.78009,0\n            34.62453,31.78009,0\n            34.62452,31.78008,0\n            34.62451,31.78008,0\n            34.62449,31.78007,0\n            34.62448,31.78007,0\n            34.62444,31.78004,0\n            34.62443,31.78004,0\n            34.62443,31.78003,0\n            34.62442,31.78003,0\n            34.62442,31.78002,0\n            34.62441,31.78002,0\n            34.62441,31.78001,0\n            34.6244,31.78,0\n            34.6244,31.77999,0\n            34.62439,31.77999,0\n            34.62439,31.77997,0\n            34.62438,31.77996,0\n            34.62438,31.77989,0\n            34.62439,31.77988,0\n            34.62439,31.77987,0\n            34.6244,31.77986,0\n            34.6244,31.77985,0\n            34.62446,31.77979,0\n            34.62344,31.77643,0\n            34.62529,31.77604,0\n            34.62547,31.77602,0\n            34.62569,31.77603,0\n            34.62642,31.77618,0\n            34.62645,31.77615,0\n            34.62646,31.77615,0\n            34.62647,31.77614,0\n            34.62649,31.77614,0\n            34.6265,31.77613,0\n            34.62721,31.77402,0\n            34.62748,31.77305,0\n            34.62747,31.77304,0\n            34.62746,31.77304,0\n            34.62745,31.77303,0\n            34.62745,31.77302,0\n            34.62743,31.773,0\n            34.62742,31.773,0\n            34.62742,31.77298,0\n            34.62741,31.77296,0\n            34.62741,31.77295,0\n            34.6274,31.77294,0\n            34.6274,31.7729,0\n            34.62741,31.77289,0\n            34.62741,31.77287,0\n            34.62743,31.77285,0\n            34.62743,31.77284,0\n            34.62748,31.77279,0\n            34.6275,31.77279,0\n            34.62751,31.77278,0\n            34.62753,31.77278,0\n            34.62754,31.77277,0\n            34.62763,31.77277,0\n            34.62764,31.77278,0\n            34.62778,31.77276,0\n            34.62852,31.77241,0\n            34.6289,31.77219,0\n            34.63099,31.77115,0\n            34.63108,31.77108,0\n            34.63108,31.77105,0\n            34.63109,31.77104,0\n            34.63109,31.77103,0\n            34.6311,31.77102,0\n            34.6311,31.77101,0\n            34.63111,31.771,0\n            34.63112,31.771,0\n            34.63112,31.77099,0\n            34.63113,31.77098,0\n            34.63114,31.77098,0\n            34.63116,31.77096,0\n            34.63117,31.77096,0\n            34.63118,31.77095,0\n            34.63121,31.77095,0\n            34.63122,31.77094,0\n            34.63128,31.77094,0\n            34.63129,31.77095,0\n            34.63131,31.77095,0\n            34.63132,31.77096,0\n            34.63134,31.77096,0\n            34.63136,31.77098,0\n            34.63137,31.77098,0\n            34.63138,31.77099,0\n            34.63138,31.771,0\n            34.63139,31.771,0\n            34.6314,31.77101,0\n            34.6314,31.77102,0\n            34.63141,31.77103,0\n            34.63141,31.77105,0\n            34.63142,31.77106,0\n            34.63142,31.77111,0\n            34.63141,31.77112,0\n            34.63141,31.77114,0\n            34.63155,31.7714,0\n            34.63333,31.77395,0\n            34.63337,31.77395,0\n            34.63338,31.77396,0\n            34.63341,31.77396,0\n            34.63342,31.77397,0\n            34.63343,31.77397,0\n            34.63343,31.77398,0\n            34.63344,31.77398,0\n            34.63346,31.774,0\n            34.63347,31.774,0\n            34.63347,31.77402,0\n            34.63348,31.77403,0\n            34.63348,31.77405,0\n            34.63349,31.77405,0\n            34.63349,31.77408,0\n            34.63348,31.77409,0\n            34.63348,31.77411,0\n            34.63347,31.77411,0\n            34.63347,31.77412,0\n            34.63346,31.77413,0\n            34.63402,31.77499,0\n            34.63411,31.77506,0\n            34.63413,31.77506,0\n            34.63414,31.77507,0\n            34.63417,31.77507,0\n            34.63418,31.77508,0\n            34.63426,31.77504,0\n            34.63442,31.775,0\n            34.63726,31.77354,0\n            34.63742,31.77341,0\n            34.63742,31.77337,0\n            34.63743,31.77336,0\n            34.63743,31.77335,0\n            34.63744,31.77333,0\n            34.63747,31.7733,0\n            34.63748,31.77328,0\n            34.63757,31.77323,0\n            34.6377,31.77322,0\n            34.63771,31.77323,0\n            34.63775,31.77323,0\n            34.63776,31.77324,0\n            34.63777,31.77324,0\n            34.63778,31.77325,0\n            34.63779,31.77325,0\n            34.63784,31.77329,0\n            34.63785,31.77331,0\n            34.63788,31.77334,0\n            34.63788,31.77336,0\n            34.63789,31.77338,0\n            34.63789,31.77348,0\n            34.63788,31.77349,0\n            34.63788,31.7735,0\n            34.63785,31.77354,0\n            34.64068,31.77777,0\n            34.63896,31.77864,0\n            34.63891,31.77868,0\n            34.63885,31.77877,0\n            34.63885,31.77879,0\n            34.63884,31.77881,0\n            34.63884,31.77883,0\n            34.6388,31.7789,0\n            34.63874,31.77895,0\n            34.63873,31.77895,0\n            34.6387,31.77897,0\n            34.63869,31.77897,0\n            34.63867,31.77898,0\n            34.63853,31.77898,0\n            34.63839,31.7789,0\n            34.63835,31.77883,0\n            34.63835,31.77879,0\n            34.63834,31.77877,0\n            34.63835,31.77875,0\n            34.63835,31.77873,0\n            34.63836,31.77871,0\n            34.63836,31.77869,0\n            34.6384,31.77863,0\n            34.63843,31.77861,0\n            34.63837,31.77837,0\n            34.63808,31.77785,0\n            34.63792,31.77767,0\n            34.63761,31.77747,0\n            34.63738,31.77739,0\n            34.63722,31.77736,0\n            34.63683,31.77736,0\n            34.63653,31.7775,0\n            34.63635,31.77763,0\n            34.63635,31.77764,0\n            34.63637,31.77767,0\n            34.63637,31.7777,0\n            34.63638,31.77772,0\n            34.63638,31.77778,0\n            34.63636,31.77784,0\n            34.63628,31.77793,0\n            34.63622,31.77797,0\n            34.63612,31.778,0\n            34.63605,31.778,0\n            34.63592,31.77796,0\n            34.63584,31.7779,0\n            34.63454,31.77851,0\n            34.63337,31.77914,0\n            34.63337,31.77922,0\n            34.63336,31.77925,0\n            34.63331,31.7793,0\n            34.63321,31.77935,0\n            34.63308,31.77934,0\n            34.63304,31.77931,0\n            34.63303,31.77931,0\n            34.633,31.77928,0\n            34.63299,31.77926,0\n            34.63298,31.77926,0\n            34.63296,31.77919,0\n            34.63296,31.77915,0\n            34.633,31.77908,0\n            34.63294,31.77895,0\n            34.6315,31.77699,0\n            34.63135,31.77687,0\n            34.63119,31.77683,0\n            34.63093,31.77682,0\n            34.63061,31.77694,0\n            34.63054,31.77693,0\n            34.62818,31.77813,0\n            34.62808,31.77824,0\n            34.62808,31.77825,0\n            34.62809,31.77825,0\n            34.62809,31.77829,0\n            34.62808,31.7783,0\n            34.62808,31.77832,0\n            34.62807,31.77833,0\n            34.62807,31.77834,0\n            34.62806,31.77835,0\n            34.62896,31.77962,0\n            34.62898,31.77962,0\n            34.629,31.77963,0\n            34.62902,31.77963,0\n            34.62903,31.77964,0\n            34.62904,31.77964,0\n            34.62905,31.77965,0\n            34.62965,31.77944,0\n            34.63005,31.77939,0\n            34.63054,31.77941,0\n            34.63093,31.77952,0\n            34.63131,31.77971,0\n            34.63164,31.77994,0\n            34.63165,31.77996,0\n            34.63176,31.78008,0\n            34.63229,31.78081,0\n            34.63287,31.78053,0\n            34.63305,31.78054,0\n            34.63321,31.78061,0\n            34.63425,31.78204,0\n            34.63425,31.78206,0\n            34.63427,31.78211,0\n            34.63427,31.78217,0\n            34.63426,31.7822,0\n            34.63425,31.78221,0\n            34.63425,31.78222,0\n            34.63424,31.78222,0\n            34.63423,31.78223,0\n            34.63422,31.78223,0\n            34.63421,31.78224,0\n            34.63367,31.7825,0\n            34.63357,31.78262,0\n            34.63357,31.78265,0\n            34.63356,31.78266,0\n            34.63356,31.78267,0\n            34.63355,31.78267,0\n            34.63355,31.78268,0\n            34.63416,31.78352,0\n            34.63438,31.78388,0\n            34.63552,31.7833,0\n            34.63564,31.7832,0\n            34.63567,31.78314,0\n            34.63567,31.78311,0\n            34.63568,31.7831,0\n            34.63568,31.78308,0\n            34.63569,31.78307,0\n            34.63569,31.78306,0\n            34.63571,31.78304,0\n            34.63571,31.78303,0\n            34.63573,31.78301,0\n            34.63574,31.78301,0\n            34.63576,31.78299,0\n            34.63577,31.78299,0\n            34.63578,31.78298,0\n            34.63581,31.78298,0\n            34.63582,31.78297,0\n            34.63589,31.78297,0\n            34.6359,31.78298,0\n            34.63593,31.78298,0\n            34.63594,31.78299,0\n            34.63595,31.78299,0\n            34.63597,31.78301,0\n            34.63598,31.78301,0\n            34.63601,31.78304,0\n            34.63601,31.78305,0\n            34.63603,31.78307,0\n            34.63603,31.78309,0\n            34.63604,31.7831,0\n            34.63604,31.78315,0\n            34.63603,31.78316,0\n            34.63603,31.78318,0\n            34.6374,31.78524,0\n            34.63925,31.78774,0\n            34.64057,31.78972,0\n            34.64066,31.78993,0\n            34.64073,31.79038,0\n            34.64069,31.79069,0\n            34.6404,31.79161,0\n            34.64039,31.79173,0\n            34.64041,31.79188,0\n            34.64045,31.79201,0\n            34.64063,31.79236,0\n            34.6407,31.79246,0\n            34.64087,31.79253,0\n            34.64097,31.79255,0\n            34.641,31.79254,0\n            34.64103,31.79254,0\n            34.64114,31.79251,0\n            34.64259,31.79178,0\n            34.64277,31.79206,0\n            34.64297,31.79226,0\n            34.64314,31.79236,0\n            34.6432,31.79238,0\n            34.64324,31.79238,0\n            34.64324,31.79239,0\n            34.64336,31.7924,0\n            34.64352,31.79238,0\n            34.64465,31.79189,0\n            34.64533,31.79299,0\n            34.64523,31.79301,0\n            34.64452,31.79327,0\n            34.64014,31.79543,0\n            34.64007,31.79552,0\n            34.64004,31.79558,0\n            34.64003,31.79563,0\n            34.64048,31.79632,0\n            34.64051,31.79635,0\n            34.64189,31.79569,0\n            34.64247,31.79647,0\n            34.64341,31.79787,0\n            34.64342,31.79802,0\n            34.6434,31.79806,0\n            34.64328,31.79815,0\n            34.64214,31.79874,0\n            34.6431,31.80017,0\n            34.64065,31.80139,0\n            34.64056,31.80128,0\n            34.64033,31.80109,0\n            34.64013,31.80098,0\n            34.63975,31.80083,0\n            34.63864,31.80048,0\n            34.63863,31.80049,0\n            34.63862,31.80049,0\n            34.63862,31.8005,0\n            34.63859,31.8005,0\n            34.63859,31.80051,0\n            34.63849,31.80051,0\n            34.63849,31.8005,0\n            34.63847,31.8005,0\n            34.63847,31.80049,0\n            34.63845,31.80049,0\n            34.63845,31.80048,0\n            34.63844,31.80048,0\n            34.63844,31.80047,0\n            34.63843,31.80047,0\n            34.63842,31.80046,0\n            34.63842,31.80045,0\n            34.63841,31.80044,0\n            34.63841,31.80042,0\n            34.6384,31.80042,0\n            34.6384,31.8004,0\n            34.63715,31.79997,0\n            34.63712,31.8,0\n            34.63707,31.80003,0\n            34.63696,31.80004,0\n            34.63646,31.80169,0\n            34.63644,31.80196,0\n            34.6365,31.80225,0\n            34.63664,31.80253,0\n            34.63812,31.80473,0\n            34.63815,31.80473,0\n            34.63817,31.80474,0\n            34.63818,31.80474,0\n            34.63819,31.80475,0\n            34.6382,31.80475,0\n            34.63823,31.80478,0\n            34.63824,31.80478,0\n            34.63827,31.80481,0\n            34.63827,31.80482,0\n            34.63829,31.80485,0\n            34.63829,31.80493,0\n            34.63828,31.80494,0\n            34.63828,31.80495,0\n            34.63827,31.80496,0\n            34.63827,31.80497,0\n            34.63825,31.805,0\n            34.63824,31.805,0\n            34.63821,31.80503,0\n            34.63819,31.80503,0\n            34.63818,31.80504,0\n            34.63817,31.80504,0\n            34.63816,31.80505,0\n            34.63805,31.80505,0\n            34.63803,31.80504,0\n            34.63802,31.80504,0\n            34.63801,31.80503,0\n            34.638,31.80503,0\n            34.63797,31.80501,0\n            34.63796,31.80501,0\n            34.63759,31.80519,0\n            34.63719,31.80547,0\n            34.63719,31.80548,0\n            34.63718,31.80549,0\n            34.63718,31.80551,0\n            34.63725,31.80567,0\n            34.63765,31.8063,0\n            34.63842,31.80776,0\n            34.63886,31.80879,0\n            34.63972,31.81109,0\n            34.63983,31.81127,0\n            34.63984,31.81127,0\n            34.63984,31.81128,0\n            34.6402,31.81123,0\n            34.64303,31.81038,0\n            34.64319,31.81031,0\n            34.6432,31.81031,0\n            34.64327,31.81026,0\n            34.64391,31.80878,0\n            34.64392,31.80867,0\n            34.64395,31.8086,0\n            34.64398,31.80856,0\n            34.64403,31.80855,0\n            34.64404,31.80854,0\n            34.64441,31.80841,0\n            34.64452,31.80842,0\n            34.64488,31.80838,0\n            34.65034,31.80707,0\n            34.65182,31.80655,0\n            34.65199,31.8064,0\n            34.652,31.80636,0\n            34.652,31.80621,0\n            34.65173,31.80531,0\n            34.653,31.80505,0\n            34.65348,31.805,0\n            34.65536,31.80461,0\n            34.65543,31.80452,0\n            34.65548,31.80441,0\n            34.65265,31.80009,0\n            34.65261,31.80009,0\n            34.6526,31.80008,0\n            34.65257,31.80008,0\n            34.65256,31.80007,0\n            34.65255,31.80007,0\n            34.65253,31.80005,0\n            34.65252,31.80005,0\n            34.6525,31.80003,0\n            34.6515,31.80066,0\n            34.65143,31.80075,0\n            34.6506,31.8013,0\n            34.65052,31.8011,0\n            34.64964,31.79786,0\n            34.64963,31.79786,0\n            34.64962,31.79785,0\n            34.64961,31.79785,0\n            34.6496,31.79784,0\n            34.6496,31.79783,0\n            34.64959,31.79783,0\n            34.64958,31.79782,0\n            34.64958,31.79781,0\n            34.64957,31.79781,0\n            34.64957,31.79779,0\n            34.64956,31.79779,0\n            34.64956,31.79772,0\n            34.64957,31.79772,0\n            34.64957,31.7977,0\n            34.64958,31.7977,0\n            34.64958,31.79769,0\n            34.64959,31.79768,0\n            34.6496,31.79768,0\n            34.6496,31.79767,0\n            34.64961,31.79767,0\n            34.64962,31.79766,0\n            34.64963,31.79766,0\n            34.64964,31.79765,0\n            34.64973,31.79765,0\n            34.64974,31.79766,0\n            34.64976,31.79766,0\n            34.64976,31.79767,0\n            34.64977,31.79767,0\n            34.64978,31.79768,0\n            34.64979,31.79768,0\n            34.64979,31.79769,0\n            34.6498,31.7977,0\n            34.6498,31.79771,0\n            34.64998,31.79772,0\n            34.65126,31.79744,0\n            34.65083,31.79597,0\n            34.6499,31.79619,0\n            34.64921,31.79703,0\n            34.64811,31.79635,0\n            34.64998,31.79416,0\n            34.65029,31.79389,0\n            34.65073,31.79362,0\n            34.65078,31.7936,0\n            34.65083,31.79355,0\n            34.65087,31.79341,0\n            34.64426,31.78342,0"
+                  }
+               },
+               {
+                  "name": "Avi Fisher Statue",
+                  "styleUrl": "#icon-1899-DB4436-nodesc",
+                  "Point": {
+                     "coordinates": "34.6304242,31.7965235,0"
+                  }
+               },
+               {
+                  "name": "Sderot Bnei Brit, Ashdod, Israel",
+                  "styleUrl": "#icon-1899-DB4436-nodesc",
+                  "Point": {
+                     "coordinates": "34.6442612,31.783418,0"
+                  }
+               }
+            ]
+         },
+         {
+            "name": "Ex-Raid Gyms",
+            "Placemark": [
+               {
+                  "name": "Roosters Gate",
+                  "styleUrl": "#icon-1502-000000-nodesc",
+                  "Point": {
+                     "coordinates": "34.6378112,31.7978046,0"
+                  }
+               },
+               {
+                  "name": "The Other Side",
+                  "styleUrl": "#icon-1502-000000-nodesc",
+                  "Point": {
+                     "coordinates": "34.6434116,31.7758262,0"
+                  }
+               },
+               {
+                  "name": "Pressure",
+                  "styleUrl": "#icon-1502-000000-nodesc",
+                  "Point": {
+                     "coordinates": "34.6392703,31.808965,0"
+                  }
+               }
+            ]
+         }
+      ]
+   },
+   "_xmlns": "http://www.opengis.net/kml/2.2"
+}

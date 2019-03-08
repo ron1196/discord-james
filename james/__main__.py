@@ -200,22 +200,6 @@ async def ask(message, user, channel):
         await rusure.delete()
         return False
 
-def distanceBetweenCord(lat1, lon1, lat2, lon2):
-    """
-    Calculate the great circle distance between two points
-    on the earth (specified in decimal degrees).
-    Source: https://gis.stackexchange.com/a/56589/15183
-    """
-    # convert decimal degrees to radians
-    lon1, lat1, lon2, lat2 = map(math.radians, [lon1, lat1, lon2, lat2])
-    # haversine formula
-    dlon = lon2 - lon1
-    dlat = lat2 - lat1
-    a = math.sin(dlat/2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon/2)**2
-    c = 2 * math.asin(math.sqrt(a))
-    km = 6367 * c
-    return km
-
 """
 Commands
 """
@@ -244,8 +228,8 @@ async def gym(ctx):
                 role = "ex"
             await channel.send('{} Raid Gym in {}'.format(role, entered_gym))
 
-@James.command(hidden=True, aliases=['gymd'])
-async def dgym(ctx):
+@James.command(hidden=True, aliases=['gym_d'])
+async def d_gym(ctx):
     message = ctx.message
     channel = message.channel
     author = message.author
@@ -259,6 +243,13 @@ async def dgym(ctx):
     gym = await find_gym(entered_gym, author, channel)
     if gym:
         await channel.send(f'{gym}')
+        
+@James.command(hidden=True, aliases=['all_gym_d'])
+async def d_all_gym(ctx):
+    message = ctx.message
+    channel = message.channel
+
+    await channel.send(f'{gyms}')
 
 @James.command(aliases=['ps'])
 async def pokestop(ctx):
@@ -277,8 +268,8 @@ async def pokestop(ctx):
         maps_link = 'https://www.google.com/maps/search/?api=1&query={}'.format('+'.join(pokestop['Coordinates']))
         await channel.send(f'{maps_link}')
 
-@James.command(hidden=True, aliases=['pokestopd'])
-async def dpokestop(ctx):
+@James.command(hidden=True, aliases=['pokestop_d'])
+async def d_pokestop(ctx):
     message = ctx.message
     channel = message.channel
     author = message.author
@@ -292,6 +283,13 @@ async def dpokestop(ctx):
     pokestop = await find_pokestop(entered_pokestop, author, channel)
     if pokestop:
         await channel.send(f'{pokestop}')
+
+@James.command(hidden=True, aliases=['all_pokestops_d'])
+async def d_all_pokestops(ctx):
+    message = ctx.message
+    channel = message.channel
+
+    await channel.send(f'{pokestops}')
 
 @James.command(hidden=True)
 async def region(ctx):

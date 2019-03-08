@@ -1,4 +1,4 @@
-﻿import discord
+import discord
 from discord.ext import commands
 import asyncio
 import json
@@ -11,23 +11,28 @@ import re
 from urllib.request import Request, urlopen
 from datetime import datetime
 
+from james.drop_client import DropClient
+
+dropbox = DropClient()
+
 CITY = ['jer', 'ash', 'mad']
 
 def load_data():
     # Load configuration
     global config
-    with open('config.json', 'r') as fd:
-        config = json.load(fd)
+    config_str = os.environ.get('config.json')
+    config = json.loads(config_str)
 
-    # Load Guild Dict
+    # Load Guild Dict   
     global guild_dict
     try:
-        with open(os.path.join('data', 'guild_dict'), 'rb') as fd:
-            guild_dict = pickle.load(fd)
-    except OSError:
-        with open(os.path.join('data', 'guild_dict'), 'wb') as fd:
+        guild_dict = pickle.loads(dropbox.download_file("/serverdict_james"))
+    except Exception:
+        try:
+            guild_dict = pickle.loads(dropbox.download_file("/serverdict_james_backup"))
+        except Exception:
             guild_dict = {}
-            pickle.dump(guild_dict, fd, (- 1))
+            dropbox.upload_file("/serverdict_james", pickle.dumps(guild_dict))
 
     # Load Gyms
     global gyms
@@ -69,10 +74,8 @@ James = commands.Bot(command_prefix=config['default_prefix'], owner_id=config['m
 James.remove_command('help')
 
 async def save():
-    with open(os.path.join('data', 'guild_dict_tmp'), 'wb') as fd:
-        pickle.dump(guild_dict, fd, (- 1))
-    os.remove(os.path.join('data', 'guild_dict'))
-    os.rename(os.path.join('data', 'guild_dict_tmp'), os.path.join('data', 'guild_dict'))
+    dropbox.upload_file("/serverdict_james", pickle.dumps(guild_dict))
+    dropbox.upload_file("/serverdict_james_backup", pickle.dumps(guild_dict))
 
 """
 Events
